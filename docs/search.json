@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "quarto/index.html",
+    "href": "quarto/index.html",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "",
+    "text": "This report reproduces the primary, survey-weighted analysis of Impella RP use among adults hospitalized with high-risk pulmonary embolism (PE) and cardiogenic shock in the National Inpatient Sample (NIS), 2017–2022. The primary analytic approach uses propensity score inverse probability of treatment weighting (IPTW) to address measured confounding while retaining the NIS complex survey design.\n\n\nWe used the Healthcare Cost and Utilization Project (HCUP) National Inpatient Sample (NIS), 2017–2022, a stratified, nationally representative sample of U.S. hospital discharges. All analyses accounted for the NIS complex survey design (hospital clustering, stratification, and discharge weights).\n\n\n\nWe included discharges meeting all of the following: - Age ≥ 18 years - Pulmonary embolism present (ICD-10-CM diagnosis codes: I26.01, I26.02, I26.04, I26.09, I26.90, I26.92, I26.93, I26.94, I26.96, I26.99) - Cardiogenic shock present (ICD-10-CM: R57.0)\n\n\n\nImpella RP use was defined by ICD-10-PCS procedure codes 02HA3RZ or 5A0221D during the index hospitalization.\n\n\n\nCovariates were prespecified based on clinical relevance and availability in NIS: - Demographics: age, sex, race (collapsed category), primary payer (collapsed category), ZIP-code income quartile\n- Hospital factors: region, bed size, location/teaching status\n- Transfer status: transfer-in, transfer-out\n- Clinical factors: right ventricular failure, left ventricular failure, Charlson comorbidity index, and year of admission\nRace and payer were collapsed for analytic stability (Native American → “Other”; Self-pay and No charge → “Other”).\n\n\n\nPrespecified in-hospital outcomes were: - In-hospital mortality - Major bleeding and/or transfusion (intracranial hemorrhage diagnosis codes I60–I62 and/or blood product transfusion procedures; see Appendix) - Acute kidney injury (ICD-10-CM: N17.) - Length of stay (LOS), days - Inflation-adjusted total cost, in 2022 U.S. dollars, computed from total charges using the HCUP cost-to-charge ratio and adjusted using annual Consumer Price Index ratios\n\n\n\nWe report survey-weighted descriptive statistics and compare groups by Impella RP status.\n\n\nPrimary associations were estimated using propensity score IPTW to create a weighted pseudo-population in which measured baseline covariates were balanced between treatment groups. IPTW weights were stabilized and estimated for the average treatment effect (ATE).\nTo preserve national representativeness and account for the NIS complex survey design, we combined weights as:\nFinal analysis weight = (NIS discharge weight) × (stabilized IPTW)\nWe assessed covariate balance using standardized mean differences (SMDs) before and after weighting and visualized balance with a Love plot.\n\n\n\nOutcome models were fit using the IPTW-weighted survey design: - Binary outcomes: survey-weighted generalized linear models with quasibinomial family; reported as odds ratios (OR) with 95% confidence intervals (CI) - LOS and total cost: survey-weighted Gaussian models of log(1 + outcome); exponentiated coefficients are reported as ratios (exp[β]) with 95% CI"
+  },
+  {
+    "objectID": "quarto/index.html#data-source-and-study-period",
+    "href": "quarto/index.html#data-source-and-study-period",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "",
+    "text": "We used the Healthcare Cost and Utilization Project (HCUP) National Inpatient Sample (NIS), 2017–2022, a stratified, nationally representative sample of U.S. hospital discharges. All analyses accounted for the NIS complex survey design (hospital clustering, stratification, and discharge weights)."
+  },
+  {
+    "objectID": "quarto/index.html#study-population",
+    "href": "quarto/index.html#study-population",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "",
+    "text": "We included discharges meeting all of the following: - Age ≥ 18 years - Pulmonary embolism present (ICD-10-CM diagnosis codes: I26.01, I26.02, I26.04, I26.09, I26.90, I26.92, I26.93, I26.94, I26.96, I26.99) - Cardiogenic shock present (ICD-10-CM: R57.0)"
+  },
+  {
+    "objectID": "quarto/index.html#exposure",
+    "href": "quarto/index.html#exposure",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "",
+    "text": "Impella RP use was defined by ICD-10-PCS procedure codes 02HA3RZ or 5A0221D during the index hospitalization."
+  },
+  {
+    "objectID": "quarto/index.html#covariates",
+    "href": "quarto/index.html#covariates",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "",
+    "text": "Covariates were prespecified based on clinical relevance and availability in NIS: - Demographics: age, sex, race (collapsed category), primary payer (collapsed category), ZIP-code income quartile\n- Hospital factors: region, bed size, location/teaching status\n- Transfer status: transfer-in, transfer-out\n- Clinical factors: right ventricular failure, left ventricular failure, Charlson comorbidity index, and year of admission\nRace and payer were collapsed for analytic stability (Native American → “Other”; Self-pay and No charge → “Other”)."
+  },
+  {
+    "objectID": "quarto/index.html#outcomes",
+    "href": "quarto/index.html#outcomes",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "",
+    "text": "Prespecified in-hospital outcomes were: - In-hospital mortality - Major bleeding and/or transfusion (intracranial hemorrhage diagnosis codes I60–I62 and/or blood product transfusion procedures; see Appendix) - Acute kidney injury (ICD-10-CM: N17.) - Length of stay (LOS), days - Inflation-adjusted total cost, in 2022 U.S. dollars, computed from total charges using the HCUP cost-to-charge ratio and adjusted using annual Consumer Price Index ratios"
+  },
+  {
+    "objectID": "quarto/index.html#statistical-analysis",
+    "href": "quarto/index.html#statistical-analysis",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "",
+    "text": "We report survey-weighted descriptive statistics and compare groups by Impella RP status.\n\n\nPrimary associations were estimated using propensity score IPTW to create a weighted pseudo-population in which measured baseline covariates were balanced between treatment groups. IPTW weights were stabilized and estimated for the average treatment effect (ATE).\nTo preserve national representativeness and account for the NIS complex survey design, we combined weights as:\nFinal analysis weight = (NIS discharge weight) × (stabilized IPTW)\nWe assessed covariate balance using standardized mean differences (SMDs) before and after weighting and visualized balance with a Love plot.\n\n\n\nOutcome models were fit using the IPTW-weighted survey design: - Binary outcomes: survey-weighted generalized linear models with quasibinomial family; reported as odds ratios (OR) with 95% confidence intervals (CI) - LOS and total cost: survey-weighted Gaussian models of log(1 + outcome); exponentiated coefficients are reported as ratios (exp[β]) with 95% CI"
+  },
+  {
+    "objectID": "quarto/index.html#covariate-balance-diagnostics",
+    "href": "quarto/index.html#covariate-balance-diagnostics",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "Covariate balance diagnostics",
+    "text": "Covariate balance diagnostics\nWe assessed balance using standardized mean differences (SMDs) before and after IPTW (target absolute SMD &lt; 0.10).\n\n\nBalance Measures\n                                        Type Diff.Un Diff.Adj    M.Threshold\nprop.score                          Distance  0.6400  -0.0010 Balanced, &lt;0.1\nAGE                                  Contin. -0.1515  -0.0276 Balanced, &lt;0.1\nFEMALE_Male                           Binary  0.0972  -0.0055 Balanced, &lt;0.1\nRACE_alt_Asian or Pacific Islander    Binary  0.0017  -0.0017 Balanced, &lt;0.1\nRACE_alt_Black                        Binary -0.0589   0.0068 Balanced, &lt;0.1\nRACE_alt_Hispanic                     Binary -0.0461  -0.0272 Balanced, &lt;0.1\nRACE_alt_Other                        Binary  0.0113  -0.0129 Balanced, &lt;0.1\nRACE_alt_White                        Binary  0.0920   0.0350 Balanced, &lt;0.1\nRACE_alt:&lt;NA&gt;                         Binary  0.0214  -0.0053 Balanced, &lt;0.1\nPAY1_alt_Medicaid                     Binary -0.0554  -0.0028 Balanced, &lt;0.1\nPAY1_alt_Medicare                     Binary -0.0675  -0.0074 Balanced, &lt;0.1\nPAY1_alt_Other                        Binary  0.0101   0.0069 Balanced, &lt;0.1\nPAY1_alt_Private                      Binary  0.1129   0.0033 Balanced, &lt;0.1\nPAY1_alt:&lt;NA&gt;                         Binary -0.0016  -0.0016 Balanced, &lt;0.1\nZIPINC_QRTL_Q1                        Binary -0.0275   0.0056 Balanced, &lt;0.1\nZIPINC_QRTL_Q2                        Binary  0.0077   0.0028 Balanced, &lt;0.1\nZIPINC_QRTL_Q3                        Binary  0.0203  -0.0332 Balanced, &lt;0.1\nZIPINC_QRTL_Q4                        Binary -0.0004   0.0248 Balanced, &lt;0.1\nZIPINC_QRTL:&lt;NA&gt;                      Binary -0.0110  -0.0007 Balanced, &lt;0.1\nHOSP_REGION_Midwest                   Binary -0.0197   0.0058 Balanced, &lt;0.1\nHOSP_REGION_Northeast                 Binary -0.0074  -0.0156 Balanced, &lt;0.1\nHOSP_REGION_South                     Binary  0.0308   0.0146 Balanced, &lt;0.1\nHOSP_REGION_West                      Binary -0.0038  -0.0048 Balanced, &lt;0.1\nHOSP_BEDSIZE_Large                    Binary  0.0396   0.0007 Balanced, &lt;0.1\nHOSP_BEDSIZE_Medium                   Binary -0.0083   0.0058 Balanced, &lt;0.1\nHOSP_BEDSIZE_Small                    Binary -0.0313  -0.0065 Balanced, &lt;0.1\nHOSP_LOCTEACH_Rural                   Binary -0.0050  -0.0060 Balanced, &lt;0.1\nHOSP_LOCTEACH_Urban, non-teaching     Binary -0.0291  -0.0132 Balanced, &lt;0.1\nHOSP_LOCTEACH_Urban, teaching         Binary  0.0340   0.0192 Balanced, &lt;0.1\nTRAN_IN_No transfer                   Binary -0.1186  -0.0038 Balanced, &lt;0.1\nTRAN_IN_Transferred from acute-care   Binary  0.1317  -0.0160 Balanced, &lt;0.1\nTRAN_IN_Transferred from other        Binary -0.0131   0.0198 Balanced, &lt;0.1\nTRAN_IN:&lt;NA&gt;                          Binary  0.0024  -0.0026 Balanced, &lt;0.1\nTRAN_OUT_No transfer                  Binary -0.0051   0.0281 Balanced, &lt;0.1\nTRAN_OUT_Transferred to acute-care    Binary  0.0099   0.0038 Balanced, &lt;0.1\nTRAN_OUT_Transferred to other         Binary -0.0048  -0.0319 Balanced, &lt;0.1\nTRAN_OUT:&lt;NA&gt;                         Binary -0.0003  -0.0003 Balanced, &lt;0.1\nRV_Failure_Yes                        Binary -0.0044   0.0265 Balanced, &lt;0.1\nLV_Failure_Yes                        Binary  0.2093  -0.0081 Balanced, &lt;0.1\ncharlindex                           Contin.  0.0636  -0.0342 Balanced, &lt;0.1\nYEAR_2017.000                         Binary -0.0282   0.0014 Balanced, &lt;0.1\nYEAR_2018.000                         Binary  0.0449  -0.0039 Balanced, &lt;0.1\nYEAR_2019.000                         Binary  0.0130  -0.0052 Balanced, &lt;0.1\nYEAR_2020.000                         Binary -0.0047  -0.0066 Balanced, &lt;0.1\nYEAR_2021.000                         Binary -0.0375   0.0140 Balanced, &lt;0.1\nYEAR_2022.000                         Binary  0.0125   0.0003 Balanced, &lt;0.1\n\nBalance tally for mean differences\n                   count\nBalanced, &lt;0.1        46\nNot Balanced, &gt;0.1     0\n\nVariable with the greatest mean difference\n       Variable Diff.Adj    M.Threshold\n RACE_alt_White    0.035 Balanced, &lt;0.1\n\nEffective sample sizes\n                 No    Yes\nUnadjusted 10393.   278.  \nAdjusted   10388.76 180.12"
+  },
+  {
+    "objectID": "quarto/index.html#in-hospital-mortality",
+    "href": "quarto/index.html#in-hospital-mortality",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "In-hospital mortality",
+    "text": "In-hospital mortality\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOR\n95% CI\np-value\n\n\n\n\nImpella RP\n\n\n\n\n\n\n\n\n    No\n—\n—\n\n\n\n\n    Yes\n1.74\n1.29, 2.33\n&lt;0.001\n\n\n\nAbbreviations: CI = Confidence Interval, OR = Odds Ratio"
+  },
+  {
+    "objectID": "quarto/index.html#major-bleeding-andor-transfusion",
+    "href": "quarto/index.html#major-bleeding-andor-transfusion",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "Major bleeding and/or transfusion",
+    "text": "Major bleeding and/or transfusion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOR\n95% CI\np-value\n\n\n\n\nImpella RP\n\n\n\n\n\n\n\n\n    No\n—\n—\n\n\n\n\n    Yes\n1.81\n1.28, 2.56\n&lt;0.001\n\n\n\nAbbreviations: CI = Confidence Interval, OR = Odds Ratio"
+  },
+  {
+    "objectID": "quarto/index.html#acute-kidney-injury",
+    "href": "quarto/index.html#acute-kidney-injury",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "Acute kidney injury",
+    "text": "Acute kidney injury\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOR\n95% CI\np-value\n\n\n\n\nImpella RP\n\n\n\n\n\n\n\n\n    No\n—\n—\n\n\n\n\n    Yes\n1.81\n1.29, 2.52\n&lt;0.001\n\n\n\nAbbreviations: CI = Confidence Interval, OR = Odds Ratio"
+  },
+  {
+    "objectID": "quarto/index.html#length-of-stay-los",
+    "href": "quarto/index.html#length-of-stay-los",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "Length of stay (LOS)",
+    "text": "Length of stay (LOS)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nexp(Beta)\n95% CI\np-value\n\n\n\n\nImpella RP\n\n\n\n\n\n\n\n\n    No\n—\n—\n\n\n\n\n    Yes\n1.07\n0.91, 1.27\n0.4\n\n\n\nAbbreviation: CI = Confidence Interval"
+  },
+  {
+    "objectID": "quarto/index.html#inflation-adjusted-total-cost",
+    "href": "quarto/index.html#inflation-adjusted-total-cost",
+    "title": "Impella RP in High-Risk Pulmonary Embolism With Cardiogenic Shock",
+    "section": "Inflation-adjusted total cost",
+    "text": "Inflation-adjusted total cost\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nexp(Beta)\n95% CI\np-value\n\n\n\n\nImpella RP\n\n\n\n\n\n\n\n\n    No\n—\n—\n\n\n\n\n    Yes\n2.35\n2.08, 2.66\n&lt;0.001\n\n\n\nAbbreviation: CI = Confidence Interval"
+  }
+]
